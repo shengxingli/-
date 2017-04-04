@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>注册</title>
+		<meta charset="UTF-8"/>
+	</head>
+	<body>
+		<table border="1" width="600" height="150" bordercolor="black" align="center" valign="middle" cellspacing="0">
+		<tr>
+			<td>用户名：</td>
+			<form><td><input type="text" name="name"/></td></form>
+		</tr>
+		<tr>
+			<td>密码：</td>
+			<form><td><input type="password" name="password"/></td></form>
+		</tr>
+		<tr>
+			<td>确认密码：</td>
+			<form><td><input type="password" name="password"/></td></form>
+		</tr>
+		<tr>
+			<td>性别：</td>
+			<form><td><input type="radio" name="boy" value="男" /><input type="radio" name="girl" value="女" /></td></form>
+		</tr>
+		<tr>
+			<td>生日：</td>
+			<td><form>
+				<select name="li">
+					<option value="first">公历</option>
+					<option value="two">农历</option>
+				</select>
+				<select name="year">
+					<option>年</option>
+					<option>1993</option>
+					<option>1994</option>
+					<option>1995</option>
+					<option>1996</option>
+					<option>1997</option>
+					<option>1998</option>
+					<option>1999</option>
+					<option>2000</option>
+					<option>2001</option>
+					<option>2002</option>
+					<option>2003</option>
+					<option>2004</option>
+				</select>
+				<select name="yue">
+					<option>月</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+				</select>
+				<select name="day">
+					<option>日</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					<option>13</option>
+					<option>14</option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+					<option>18</option>
+					<option>19</option>
+					<option>20</option>
+					<option>21</option>
+					<option>22</option>
+					<option>23</option>
+					<option>24</option>
+					<option>25</option>
+					<option>26</option>
+					<option>27</option>
+					<option>28</option>
+					<option>29</option>
+					<option>30</option>
+				</select>
+			</form></td>
+		</tr>
+		<tr>
+			<td>所在地：</td>
+			<td><form>
+				<select name="guo">
+					<option value="first">中国</option>
+					<option value="two">美国</option>
+					<option value="three">英国</option>
+					<option value="four">澳大利亚</option>
+				</select>
+				<select name="sheng">
+					<option value="first">河北省</option>
+					<option value="two">北京</option>
+					<option value="three">天津</option>
+					<option value="four">上海</option>
+				</select>
+				<select name="guo">
+					<option value="first">石家庄</option>
+					<option value="two">邯郸</option>
+					<option value="three">保定</option>
+					<option value="four">廊坊</option>
+				</select>
+			</form></td>
+		</tr>
+		<tr>
+			<td>验证码：</td>
+			<td><form><input type="text" name="yanzhengma"/><img src="images\yanzhengma.jpg" width="100" height="25"></form></td>
+		</tr>
+		<tr>
+			<td>证件类型：</td>
+			<td><form>
+				<select name="guo">
+					<option value="first">身份证</option>
+					<option value="two">学号</option>
+				</select>
+			</form></td>
+		</tr>
+		<tr>
+			<td>证件号：</td>
+			<td><form><input type="text" name="number"/></form></td>
+		</tr>
+		<tr>
+			<td>爱好：</td>
+			<td><form><input type="checkbox" name="hobby" value="音乐"><input type="checkbox" name="hobby" value="读书"><input type="checkbox" name="hobby" value="跳舞"><input type="checkbox" name="hobby" value="下棋"><input type="checkbox" name="hobby" value="其他"></form></td>
+		</tr>
+		<tr>
+			<td>说明：</td>
+			<td><form>
+				<textarea rows="5" cols="20">
+				</textarea>
+			</form></td>
+		</tr>
+		<tr>
+			<td>上传头像：</td>
+			<td><form><input type="file" value="选择文件"></form></td>
+		</tr>
+		<tr align="center">
+			<td colspan="2"><form><input type="submit" value="提交"><input type="reset" value="重置"><input type="button" value="按钮"></form></td>
+		</tr>
+		</table>
+	</body>
+</html>
