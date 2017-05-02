@@ -1,0 +1,20 @@
+body{
+	font: 12px,Arial;
+	color: #727272;
+	line-height: 2em;
+}
+a{
+	color: #727272;
+	text-decoration: none;
+}
+.menu{
+	font-weight: bolder;
+	font-size: 14px;
+	color: #b9f605 ;
+}
+.menu a{
+	color: #FFFFFF;
+}
+.menu .special{
+	color:#fdb306;
+}	
