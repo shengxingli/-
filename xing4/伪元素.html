@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>伪元素</title>
+	<style type="text/css">
+		p:first-line {
+			color: #ff0000;
+			font-variant: small-caps
+		}
+		p:first-letter{
+			color: #0000ff;
+			font-size:20px;
+		}
+		P:before{
+			content:'在元素之前添加内容';
+			color:#00ff00;
+		}
+		P:after{
+			content:'在元素之后添加内容';
+			color:#00ff00;
+		}
+</style>
+</head>
+<body>
+伪元素（扩展内容）
+<p>
+   You can use the :first-line pseudo-element to add a special effect to the first line of a text!
+   You can use the :first-line pseudo-element to add a special effect to the first line of a text!
+   You can use the :first-line pseudo-element to add a special effect to the first line of a text!
+</p>
+<p>伪类和伪元素的根本区别在于：它们是否创造了新的元素(抽象)。从我们模仿其意义的角度来看，如果需要添加新元素加以标识的，就是伪元素，反之，如果只需要在既有元素上添加类别的，就是伪类。
+</p>
+</body>
+</html>

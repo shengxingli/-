@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>无标题文档</title>
+<style>
+*{
+	padding:0px;
+	margin:0px;
+	}
+body{
+	font-family:"宋体";
+	font-size:12px;
+	}
+.big {
+	width:300px;
+	margin:0 auto 0 auto;
+}
+.big p {
+	margin:5px 0 0 5px;}
+
+#thisform {
+	font-size:12px;
+	color:#999;
+}
+#thisform label {
+	font-weight:bold;
+	color:#660000;
+}
+#thisform fieldset {
+	border:1px solid #cc;
+	padding:0 20px;
+}
+#thisform legend {
+	font-weight:bold;
+	font-size:90%;
+	color:#666;
+	background:#eee;
+	border:1px solid #ccc;
+	border-bottom-color:#999;
+	border-right-color:#999;
+	padding:4px 8px;
+}
+.txt{
+	width:200px;
+	background-color:#CCCCFF;
+	border:#6666FF 1px solid;
+	color:#0066FF;
+	}
+.but{
+border:0px#93bee2solid;
+border-bottom:#93bee21pxsolid;
+border-left:#93bee21pxsolid;
+border-right:#93bee21pxsolid;
+border-top:#93bee21pxsolid;*/
+background-color:#3399CC;
+cursor:hand;
+font-style:normal;
+color:#FFFFFF;
+}
+</style>
+</head>
+<body>
+<form action="" id="thisform" class="big" >
+  <fieldset>
+  <legend>注册信息</legend>
+  <p>
+    <label for="name" accesskey="9">用户名:</label>
+    <br />
+    <input type="text" id="name" name="name" tabindex="1" class="txt">
+  </p>
+  <p>
+    <label for="email">登录邮箱:</label>
+    <br />
+    <input type="text" id="email" name="email"tabindex="2" class="txt">
+  </p>
+    <p>
+    <label for="email">登录密码:</label>
+    <br />
+    <input type="password" id="email" name="email"tabindex="2" class="txt">
+  </p>
+  <p>
+    <input type="checkbox" id="remeber" name="remeber" tabindex="3" style="background-color:#FF0000;"/>
+    <laber for="remeber">
+    接受用户协议
+    </label>
+  </p>
+  <p>
+    <input type="submit" value="提交注册" tabindex="4" class="but"/><input name="" type="reset" value="全部重置" class="but" />  
+  </p>
+  </fieldset>
+</form>
+</body>
