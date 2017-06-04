@@ -1,0 +1,147 @@
+a{
+    text-decoration:none;
+    color:#333333;
+}
+a:hover{
+    color: red;
+}
+.head{
+    width: 100%;
+    height: 120px;
+    background-color: #f2f2f2;
+}
+.header{
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    padding: 10px;
+}
+.search{
+    float: right;
+    margin:30px;
+}
+.nav{
+    margin: 0 auto;
+    width: 100%;
+    height: 30px;
+    background-color: #1ca261;
+}
+.nav ul{
+    width: 1000px;
+    margin: 0 auto;
+}
+.nav ul li{
+    float: left;
+    margin-left: 100px;
+    background-color: #ffce44;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+/*.nav ul li ul{
+    position: absolute; 
+}
+.nav ul li ul li{
+    float: none;
+    display: none;
+}
+.nav ul li a:hover ul li{
+    display: block;
+}*/
+.banner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.content{
+    width: 1000px;
+    margin: 0 auto;
+    height: 120px;
+}
+.news{
+    float: left;
+    width: 380px;
+    height: 110px;
+    border: 3px solid #c3cca1;
+    padding-top: 5px;
+}
+.news p{
+    font-size: 20px;
+    color:#dd5044;
+    padding-left: 5px;
+}
+.news ol{
+    color:#8cac47;
+    font-size: 15px;
+    list-style: upper-roman;
+    padding-left: 60px;
+}  
+.news ol li{
+     list-style-position:outside;
+     color:#8cac47;
+} 
+.list{
+    float: right;
+    width: 600px;
+    height: 110px;
+    border: 3px solid #c3cca1;
+    overflow: auto;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.list h3{
+    font-size: 20px;
+    color: #dd5044;
+}
+.list p{
+    padding-left: 15px;
+}
+.contp{    
+    width: 995px;
+    height:440px;
+    margin: 0 auto;
+    border: 3px solid #c3cca1;
+    margin-top: 5px;
+}
+.eat{
+    border-left: 40px solid #4f9cee;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #ef4705;
+    position: relative;
+    padding-left: 3px;
+}
+.line{
+    height: 5px;
+    width: 800px;
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 80px;
+    top:10px;
+}
+.pic1{
+    height: 190px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.pic{
+    float: left;
+    margin-left: 10px;
+    border: 2px solid #333333;
+}
+.pic img{
+    opacity: 0.6;
+}
+.pic p{
+    text-align: center;
+}
+.pic:hover img{
+    opacity:1;
+}
+.footer{
+    background-color: #2e323e;
+    height: 100px;
+    width: 100%;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+}
