@@ -1,0 +1,13 @@
+.image{
+    float: left;
+    border: 1px solid #bebebe;
+    margin-right: 3px;  
+    padding: 3px;
+}
+.image img{
+    opacity: 0.5;
+}
+.image a:hover img{
+  border: 1px solid #333333;
+  opacity: 1;
+}
