@@ -1,0 +1,39 @@
+.naver,.nav{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.nav{
+    height: 30px;
+    width: 870px;
+}
+.naver>li{
+    float: left;
+    list-style: none;
+    width: 100px;
+    height: 30px;
+    margin-right:1px;
+    transform: skew(-45deg);
+    padding-left: 20px;
+    background-color: #d5d5d5;    
+    position: relative;
+}
+.naver>li>span{
+    transform: skew(+45deg);
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    width: 70px;
+}
+.naver li:hover span{
+    background-color: #f8551f;
+    transform: skew(0);
+}
+.naver li:hover a{
+    transform: skew(+45deg);
+    display: inline-block;
+    color: white;
+}
