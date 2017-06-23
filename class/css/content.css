@@ -1,0 +1,108 @@
+.banner{
+    position: relative;
+    z-index: 10;
+}
+.content{
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 20;
+}
+.list{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    border: 3px solid #fafafa;
+    margin-top: 100px;
+}
+.list>li>a{
+    color: #fafafa;
+}
+.list ul a{
+    color:#fe8069 
+}
+.list>li>ul{
+    display: none;
+    font-size: 17px;
+}
+.list>li:hover ul{
+    display: block;
+}
+.wrap{
+    width: 750px;   
+}
+.newtitl a,h2{
+    color: white;
+}
+/*.scontent{
+    margin: 10px 5px;
+}*/
+.scontent h2{
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+.scontent p{
+    margin-top: 0px;
+    text-indent: 2em;
+    min-height: 2em;
+    color: #cbdbea;
+    background-color: rgba(32, 39, 50, 0.7);
+    padding:10px;
+}
+.topic input{
+    display: block;
+}
+.topic{
+    color: white;
+    position: absolute;
+    top:350px;
+}
+.topic h3{
+    font-size: 20px;
+}
+textarea{
+    width: 150px;
+    font-size: 16px;
+    color: white;
+    height: 25px;
+    display: block;
+    border: 2px solid pink;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+textarea:focus{
+    height: 250px;
+}
+
+.comment li{
+    border: 3px groove #ba8951;
+    margin-top: 10px;
+    padding: 5px;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.comment h3{
+    margin: -35px 0 0 35px;
+    text-align: center;
+    width: 150px;
+}
+.comment p{
+    margin-top: 15px;
+    color: rgb(32, 39, 50);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.comment textarea{
+    display: block;
+    width: 750px;
+    height: 100px;
+    margin-top: 30px;  
+    color: black;
+}
+textarea::placeholder{
+    color: black;
+    text-align: center;
+    line-height: 100px; 
+}

@@ -1,0 +1,50 @@
+.banner{
+    position: relative;
+    z-index: 10;
+}
+.content{
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 20;
+}
+.list{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    border: 3px solid #fafafa;
+    margin-top: 100px;
+}
+.list>li>a{
+    color: #fafafa;
+}
+.list ul a{
+    color:#fe8069 
+}
+.list>li>ul{
+    display: none;
+    font-size: 17px;
+}
+.list>li:hover ul{
+    display: block;
+}
+.wrap{
+    width: 750px;   
+}
+.newtitl a,h2{
+    color: white;
+}
+.scontent span {
+    float: right;
+    color: #999;    
+}
+.scontent li{
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.scontent a{
+    color: white
+}
+.scontent ul{
+    margin: 10px 0;
+    background-color: rgba(32, 39, 50, 0.7);
+}

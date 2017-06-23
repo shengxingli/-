@@ -1,0 +1,203 @@
+.banner{
+    position: relative;
+    margin: 3px auto;
+    width: 960px;
+    overflow: hidden;
+}
+.login{
+    border: 3px solid #1abc9c;
+    right: 50px;
+    top: 40px;
+    position: absolute;
+    background-color: rgba(236, 240, 241, 0.7);
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+}
+.login p{
+    margin-top: 20px;
+    text-align: center;
+    color: #3498d8;
+    font-weight: bold;
+}
+.login p:first-child{
+    font-size:25px;
+    color:#f39c12;
+}
+input[type=password]{
+    
+    border-color: greenyellow;
+    border-radius: 5px;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+}
+input[type=button].log{
+    width: 130px;
+    background-color: #1abc9c;
+    margin: 30px 0 0 70px;
+}
+input[type=button].reg{
+    margin: 30px 40px 0 0;
+    width: 130px;
+    background-color: #f39c12;
+}
+input[type=button].log:hover{
+    width: 150px;
+    height: 38px;
+    margin: 26px 0 0 60px
+}
+input[type=button].reg:hover{
+    width: 150px;
+    height: 38px;
+    margin: 26px 30px 0 0;
+}
+.banner span{
+    font-size: 12px;
+    position: absolute;
+    bottom: 5px;
+    left: 123px;
+}
+.banner span a{
+    text-decoration: underline;
+}
+.play{/*
+    height: 300px;*/
+    width: calc(960px * 5);   
+    animation: ppt 25s linear 2s infinite alternate;    
+}
+.banner img{
+    opacity: 0.8;
+    float: left;
+}
+@keyframes ppt{
+    0%{margin-left: 0px;}
+    25%{margin-left: -960px;}
+    50%{margin-left: -1920px;}
+    75%{margin-left: -2880px;}
+    100%{margin-left: -3840px;}
+}
+.school{
+    width: 460px;
+    height: 480px;
+    padding-right: 10px;
+    border-right: 5px solid #bdc3c7;
+}
+.titl{
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 3px;
+    background-image:url(../images/bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    font-size: 17px;
+    color: #27ae60;
+}
+.titl span a{
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+}
+.topnews{
+    height: 85px;
+    background-color: #EDEDED;
+    font-size: 14px;
+    overflow: hidden;
+    width: 440px;
+    margin-left: 10px;
+}   
+.topnews>span{
+    line-height: 85px;
+    font-size: 25px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.topnews>h2{
+    font-size: 16px;
+    text-align: center;
+}
+.topnews>h2>a{
+    font-size: 14px;
+    color: #2c3e50;
+}
+.school ul{
+    padding-left: 10px;
+}
+.school li{
+    height: 33px;
+    background-color: #EDEDED;
+    margin-top: 3px;
+    width: 440px;
+    line-height: 33px;   
+}
+.school li span{
+    padding: 2px 15px 0 5px;
+    font-weight: bold;
+    color: #b3b3b3;
+    font-size: 17px; 
+}
+.school li a{
+    color: #2c3e50;
+    font-size: 16px;
+}
+.school a:hover{
+    text-decoration: none;
+    color: #666699
+}
+.person{
+    width: 475px;
+    position: relative;
+}
+.album{/*
+    width: 150px;*/
+    box-shadow:2px 2px 3px #aaaaaa;
+    padding:5px 5px 15px 5px;
+    border:1px solid #BFBFBF;
+    font-size: 14px;
+    color: #006699;
+    background-color: pink;
+    text-align: center;
+}
+.r1{
+    transform: rotate(-7deg);
+    margin-top: 40px;
+    position: absolute;
+    z-index: 50;
+}
+.r2{
+    transform: rotate(14deg);
+    margin-top: 85px;
+    margin-left: 80px;
+    position: absolute;
+    z-index: 40;
+}
+.r3{
+    transform: rotate(35deg);
+    margin-top: 155px;
+    margin-left: 120px;
+    position: absolute;
+    z-index: 30;
+}
+.r4{
+    margin-top: 20px;
+    margin-left: 140px;
+    position: absolute;
+    z-index: 20;
+    text-align: right;
+}  
+.r5{
+    margin-top: 250px;
+    margin-left: 230px;
+    position: absolute;
+    z-index: 10;
+    text-align: right;
+}
+@keyframes big{
+    from{transform: scale(1,1)}
+    to{transform: scale(1.5,1.5)}
+}
+.album:hover{
+    animation: big 1s;
+    animation-fill-mode: forwards;
+    z-index: 500;
+} 
